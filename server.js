@@ -5,8 +5,7 @@ var fs = require("fs");
 var path = require("path");
 
 var app = express();
-var PORT = 3000;
-//create a name for our path and link to public folder
+var PORT = process.env.PORT || 3000;//create a name for our path and link to public folder
 var pathName = path.join(__dirname, "/public");
 
 // Sets up the Express app to handle data parsing
