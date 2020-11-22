@@ -1,0 +1,21 @@
+body {
+    background: #CCC;
+}
+
+#Header a:hover 
+{
+    color: #FFF;
+}
+
+#background-img
+{
+    background: url('img/background.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    min-height: 500px;
+
+}
+
+#About {
+    margin-top: -200px ;
+}
